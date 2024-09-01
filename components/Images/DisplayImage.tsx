@@ -86,7 +86,6 @@ const DisplayImage: React.FC<DisplayImageProps> = ({
         )}
         {colorPalette && (
           <div className="w-auto mt-8 md:mt-20">
-            <h2 className="text-xl font-bold mb-2">Colors</h2>
             <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 justify-center">
               {colorPalette.map((color, index) => {
                 const rgb = Array.isArray(color)
